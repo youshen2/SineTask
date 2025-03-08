@@ -23,7 +23,6 @@ package moye.sine.task.activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,7 +35,7 @@ import moye.sine.task.listener.TouchScaleListener;
 import moye.sine.task.model.TodoItem;
 import moye.sine.task.utils.DatabaseHelper;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     public RecyclerView recyclerView;
     public TodoAdapter adapter;
     public DatabaseHelper dbHelper;
