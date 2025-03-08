@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppScrollView">
+        <attr name="asv_anim_scale" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="AppNestedScrollView">
+        <attr name="ansv_enable_end" format="boolean" />
+        <attr name="ansv_enable_start" format="boolean" />
+        <attr name="ansv_anim_scale" format="boolean" />
+        <attr name="ansv_anim_scale_list" format="reference" />
+        <attr name="ansv_skip_overscroll" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AppRecyclerView">
+        <attr name="arv_enable_start" format="boolean" />
+        <attr name="arv_enable_end" format="boolean" />
+        <attr name="arv_anim_scale" format="boolean" />
+    </declare-styleable>
+</resources>

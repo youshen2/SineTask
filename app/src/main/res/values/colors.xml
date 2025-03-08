@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="border_color">#57FFFFFF</color>
+    <color name="card_bg_color">#57808080</color>
+
+    <color name="parent_task_bg">#262626</color>
+    <color name="child_task_bg">#1A1A1A</color>
+
+    <color name="completed_text">#80FFFFFF</color>
+</resources>
